@@ -1,0 +1,7 @@
+import os
+
+TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "7756850114:AAGrtVEyt5SLu9aj-G2CdvgkJCcLTV662fU")
+
+WEBHOOK_HOST = os.getenv("WEBHOOK_HOST", "https://example.com")
+WEBHOOK_ENDPOINT = "/webhook"
+WEBHOOK_URL = f"{WEBHOOK_HOST}{WEBHOOK_ENDPOINT}"
